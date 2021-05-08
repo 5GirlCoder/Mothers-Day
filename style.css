@@ -1,0 +1,52 @@
+.header {
+    overflow: hidden;
+    background-color:rgb(250, 217, 186);
+    padding: 20px 10px;
+    font-family: 'Satisfy', cursive;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: 'Satisfy', cursive;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: 5px;
+    font-family: 'Satisfy', cursive;
+  }
+  
+  .header a:hover {
+    background-color: rgb(236, 151, 54);
+    color: black;
+    font-family: 'Satisfy', cursive;
+  }
+  
+  .header a.active {
+    background-color: rgb(255, 193, 134);
+    color: rgb(0, 0, 0);
+    font-family: 'Satisfy', cursive;
+  }
+  
+  .header-right {
+    float: right;
+    font-family: 'Satisfy', cursive;
+  }
+
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
